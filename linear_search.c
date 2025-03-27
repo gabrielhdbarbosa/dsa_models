@@ -1,8 +1,7 @@
 int	linear_search(lst, target)
 {
-	int	i;
+	int	i = 0;
 
-	i = 0;
 	while(lst[i])
 	{
 		if (lst[i] == target)
